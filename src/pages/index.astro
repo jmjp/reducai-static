@@ -10,9 +10,9 @@ import Navbar from "../components/reducai/navbar";
 import Whatsapp from "../components/reducai/whatsapp";
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Reducai">
 	<main>
-		<Navbar client:load />
+		<Navbar client:only />
 		<Whatsapp client:load />
 		<section>
 			<section id="home" class="min-h-[calc(100vh-200px)]">
